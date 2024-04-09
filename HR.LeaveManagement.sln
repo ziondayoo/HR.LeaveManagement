@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{37520071-531E-4678-B5AF-4FA349C46146}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE88FD87-7BE6-4D08-BF2B-44EB3A4E507B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{540CAF21-4984-4ED3-8833-49FC7D0C8C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{54C674A8-A0DF-48C3-A719-F9614FB19EBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{129C2388-1F5B-4B0A-A6E5-5EC2CDA514CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6E795933-739C-41F6-894F-DD361B11D586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{CF010500-B727-4E84-8CB4-197CB4F15E41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF010500-B727-4E84-8CB4-197CB4F15E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF010500-B727-4E84-8CB4-197CB4F15E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF010500-B727-4E84-8CB4-197CB4F15E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF010500-B727-4E84-8CB4-197CB4F15E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{540CAF21-4984-4ED3-8833-49FC7D0C8C02} = {BE88FD87-7BE6-4D08-BF2B-44EB3A4E507B}
+		{54C674A8-A0DF-48C3-A719-F9614FB19EBD} = {BE88FD87-7BE6-4D08-BF2B-44EB3A4E507B}
+		{129C2388-1F5B-4B0A-A6E5-5EC2CDA514CE} = {BE88FD87-7BE6-4D08-BF2B-44EB3A4E507B}
+		{6E795933-739C-41F6-894F-DD361B11D586} = {BE88FD87-7BE6-4D08-BF2B-44EB3A4E507B}
+		{CF010500-B727-4E84-8CB4-197CB4F15E41} = {54C674A8-A0DF-48C3-A719-F9614FB19EBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {090B97C5-0D68-4CAE-8C94-34189D1E5376}
+	EndGlobalSection
+EndGlobal
